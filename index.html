@@ -13,7 +13,7 @@
     <h1><strong>Let´s go Exploring - Complete the Form</strong></h1>
   </header>
   <body>
-    <form>
+    <form action="./story.html" method="GET">
       <label for="animal1">Animal 1:</label><br />
       <input type="text" id="animal1" name="animal1" required />
       <br />
@@ -57,7 +57,29 @@
       ></textarea>
       <br />
       <br />
-      <input type="submit" value="Form My Story" required />
+      <input type="submit" value="Form My Story" onclick="getData()" />
     </form>
+    <script>
+      function getData() {
+        //gettting the values
+        let animal1 = document.getElementById("animal1").value;
+        let animal2 = document.getElementById("animal2").value;
+        let color1 = document.getElementById("color1").value;
+        let element1 = document.getElementById("element1").value;
+        let greeting = document.getElementById("greeting").value;
+        let how = document.getElementById("how").value;
+        let message = document.getElementById("message").value;
+        let number = document.getElementById("num").value;
+        //saving the values in local storage
+        localStorage.setItem("firstAnimal", animal1);
+        localStorage.setItem("secondAnimal", animal2);
+        localStorage.setItem("colorOne", color1);
+        localStorage.setItem("elementOne", element1);
+        localStorage.setItem("howTo", how);
+        localStorage.setItem("message", message);
+        localStorage.setItem("greeting", greeting);
+        localStorage.setItem("numberOfTimes", number);
+      }
+    </script>
   </body>
 </html>
