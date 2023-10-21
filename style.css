@@ -45,3 +45,19 @@ input {
 textarea {
   margin-top: 10px;
 }
+
+#button {
+  appearance: none;
+  border: 0.2em solid #ff9900;
+  background: hsl(0 0 0/0);
+  padding: 0.85em 1.5em;
+  color: #ffac05;
+  border-radius: 2em;
+  transition: 1s;
+  &:hover,
+  &:focus,
+  &:active {
+    background: #e91e63;
+    color: #fff;
+  }
+}
