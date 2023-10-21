@@ -20,6 +20,7 @@ form {
 
 input {
   margin-bottom: 20px;
+  border-radius: 2em;
 }
 
 h1,
@@ -38,9 +39,18 @@ label {
   text-decoration: rgb(255, 174, 0) wavy underline;
 }
 
+#how {
+  border-radius: 2em;
+}
+
 input {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+#num {
+  width: 50px;
+  text-align: center;
 }
 
 textarea {
