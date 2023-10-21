@@ -34,3 +34,14 @@ h1,
   padding: 20px;
   margin: auto;
 }
+label {
+  text-decoration: rgb(255, 174, 0) wavy underline;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+textarea {
+  margin-top: 10px;
+}
