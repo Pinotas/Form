@@ -63,7 +63,7 @@ textarea {
   &:hover,
   &:focus,
   &:active {
-    background: #e91e63;
+    background: #e7e4e5;
     color: #fff;
   }
 }
