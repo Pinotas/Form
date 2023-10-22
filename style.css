@@ -21,6 +21,8 @@ form {
 input {
   margin-bottom: 20px;
   border-radius: 2em;
+  color: rgb(134, 88, 15);
+  text-align: center;
 }
 
 h1,
@@ -46,6 +48,7 @@ label {
 input {
   margin-top: 10px;
   margin-bottom: 10px;
+  border: 2px solid #ff9900;
 }
 
 #num {
